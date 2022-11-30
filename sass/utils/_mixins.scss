@@ -1,0 +1,17 @@
+@mixin section($pt: 94px, $pb:94px) {
+    padding-top: $pt;
+    padding-bottom: $pb;
+    }
+@mixin container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+@mixin section__title {
+    font-size: 36px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+}

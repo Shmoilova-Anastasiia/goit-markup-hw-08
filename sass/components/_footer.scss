@@ -1,0 +1,48 @@
+.footer{
+    background: var(--frame-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+.footer__container{
+    @include container;
+
+        position: relative;
+        display: flex;
+        align-items: baseline;
+       
+}
+   
+    .footer__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color-light);
+
+    &-part {
+        color: var(--accent-color);
+        }
+    }
+   
+.footer__item:not(:last-child){
+    margin-bottom: 9px;
+}
+.footer__link-nav {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--text-color-light);
+}
+    
+.footer__link-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
