@@ -7,20 +7,29 @@
 
 .client__title{
     @include section__title;
-
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    @media screen and(min-width:1200px) {
+        margin-bottom: 50px;
     }
+}
 
 .client__list{
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .client__item{
     display:inline-flex;
-    width: 170px;
+    width: 210px;
     height: 92px;
+    @media screen and(min-width:768px) {
+        width: 226px;
+    }
+    @media screen and(min-width:1200px) {
+        width: 170px;
+    }
 }
 .client__link{
     display: flex;
