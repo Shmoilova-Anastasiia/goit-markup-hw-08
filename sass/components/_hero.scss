@@ -10,7 +10,7 @@
     background-size: cover;
     background-color: var(--frame-color); 
 
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:767px) {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
         url('../image/background/Himgsm@1x.jpg');
         @media (min-device-pixel-ratio: 2),
