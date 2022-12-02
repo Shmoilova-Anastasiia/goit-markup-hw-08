@@ -1,9 +1,10 @@
 .work {
-    display: none;
+    @include section;
+    
    
 
-@media screen and (min-width:1200px) {
-    @include section;
+@media screen and (max-width:1199px) {
+    display: none;
     }
 }
 
