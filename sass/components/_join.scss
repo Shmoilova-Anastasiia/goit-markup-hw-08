@@ -1,5 +1,11 @@
 .join{
-    margin-left: 70px;
+    @media screen and (max-width:767px) {
+        margin-bottom: 60px;
+    }
+    @media screen and (min-width:1200px) {
+        margin-left: 70px;
+    }
+   
 }
 .join__text{
     margin-bottom: 20px;
@@ -14,7 +20,10 @@
 .join__list{
     display: flex;
     gap: 10px;
-    align-items: center;    
+    align-items: center; 
+    @media screen and (max-width:767px) {
+        justify-content: center;
+    }   
 }
 .join__item{
     width: 44px;

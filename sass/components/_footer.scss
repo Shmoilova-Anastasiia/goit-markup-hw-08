@@ -5,31 +5,52 @@
     }
 .footer__container{
     @include container;
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
 
+    @media screen and (min-width:1200px) {
         position: relative;
         display: flex;
-        align-items: baseline;
+        align-items: baseline; 
+    }
+       
        
 }
    
     .footer__logo {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: calc(28/24);
     letter-spacing: 0.03em;
     color: var(--text-color-light);
-
+    
     &-part {
         color: var(--accent-color);
-        }
+    }
+
+    @media screen and (min-width:1200px) {
+        margin-bottom: 20px;  
+        font-size: 26px;
+        line-height: 1.19;
     }
    
+    }
+.footer__list{
+    @media screen and (max-width:767px) {
+        margin-bottom: 60px;  
+    } 
+}
+
 .footer__item:not(:last-child){
-    margin-bottom: 9px;
+    @media screen and (min-width:1200px) {
+        margin-bottom: 9px;
+    }
+    
 }
 .footer__link-nav {
     font-style: normal;
