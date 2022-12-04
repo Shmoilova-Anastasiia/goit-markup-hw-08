@@ -6,12 +6,22 @@
 }
 .portfolio__list {
     display: flex;
-   justify-content: center;
-   margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 326px;
+   margin-bottom: 40px;
+   gap: 8px;
+
+   @media screen and (min-width:768px) {
+    width: 575px;
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   @media screen and (min-width:1200px) {
+    margin-bottom: 50px;
+   }
 }
-.portfolio__item{
-    margin-right: 8px;
-}
+
 .portfolio__button{
     padding:6px 22px;
    

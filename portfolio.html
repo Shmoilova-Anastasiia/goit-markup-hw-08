@@ -32,6 +32,10 @@
         <svg class="header__icon" width="10" height="16" aria-label="іконка smartfon"> <use href="./icons.svg#smartphone"></use></svg>
         +38 096 111 11 11</a></li>
 </ul>
+<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+    <svg class="menu__icon-close" width="40" height="40" aria-label="іконка close">
+         <use href="./icons.svg#icon-menu"></use></svg>
+  </button>
 </div>
 </header>
         <main>
@@ -48,7 +52,30 @@
     <ul class="filter list">
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img1.jpg" alt="Веб-сайт" width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img1lg@1x.jpg 1x, ./image/portfolio/img1lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img1md@1x.jpg 1x, ./image/portfolio/img1md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img1sm@1x.jpg 1x, ./image/portfolio/img1sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img1md@1x.jpg"
+                      alt="Веб-сайт"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -60,7 +87,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img2.jpg" alt="Постер"  width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img2lg@1x.jpg 1x, ./image/portfolio/img2lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img2md@1x.jpg 1x, ./image/portfolio/img2md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img2sm@1x.jpg 1x, ./image/portfolio/img2sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img2md@1x.jpg"
+                      alt="Постер"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -72,7 +122,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img3.jpg" alt="Емблема"  width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img3lg@1x.jpg 1x, ./image/portfolio/img3lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img3md@1x.jpg 1x, ./image/portfolio/img3md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img3sm@1x.jpg 1x, ./image/portfolio/img3sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img3md@1x.jpg"
+                      alt="Емблема"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -84,7 +157,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img4.jpg" alt="Навушники"  width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img4lg@1x.jpg 1x, ./image/portfolio/img4lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img4md@1x.jpg 1x, ./image/portfolio/img4md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img4sm@1x.jpg 1x, ./image/portfolio/img4sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img4md@1x.jpg"
+                      alt="Навушники"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -96,7 +192,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img5.jpg" alt="Книги" width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img5lg@1x.jpg 1x, ./image/portfolio/img5lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img5md@1x.jpg 1x, ./image/portfolio/img5md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img5sm@1x.jpg 1x, ./image/portfolio/img5sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img5md@1x.jpg"
+                      alt="Книги"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -108,7 +227,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img6.jpg" alt="Монітор" width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img6lg@1x.jpg 1x, ./image/portfolio/img6lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img6md@1x.jpg 1x, ./image/portfolio/img6md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img6sm@1x.jpg 1x, ./image/portfolio/img6sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img6md@1x.jpg"
+                      alt="Монітор"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -120,7 +262,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img7.jpg" alt="Книга" width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img7lg@1x.jpg 1x, ./image/portfolio/img7lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img7md@1x.jpg 1x, ./image/portfolio/img7md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img7sm@1x.jpg 1x, ./image/portfolio/img7sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img7md@1x.jpg"
+                      alt="Книга"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -132,7 +297,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img8.jpg" alt="Фото" width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img8lg@1x.jpg 1x, ./image/portfolio/img8lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img8md@1x.jpg 1x, ./image/portfolio/img8md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img8sm@1x.jpg 1x, ./image/portfolio/img8sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img8md@1x.jpg"
+                      alt="Фото"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -144,7 +332,30 @@
         </li>
         <li class="filter__item">
             <div class="filter__thumb">
-            <img class="filter__img" src="./image/portfolio/img9.jpg" alt="Ноутбук" width="370" height="294">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/portfolio/img9lg@1x.jpg 1x, ./image/portfolio/img9lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/portfolio/img9md@1x.jpg 1x, ./image/portfolio/img9md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/portfolio/img9sm@1x.jpg 1x, ./image/portfolio/img9sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/portfolio/img9md@1x.jpg"
+                      alt="Ноутбук"
+                      width="450"
+                      height="404"
+                      loading="lazy"
+                    />
+                  </picture>
             <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
@@ -214,5 +425,55 @@
 </div>
 </div>
 </footer>
+<!----------MOBILE MENU------->
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle  menu-toggle-close js-close-menu">
+        <svg class="menu__icon-close" width="30" height="30" aria-label="іконка close"> 
+            <use href="./icons.svg#close-icon"></use></svg>
+    </button>
+
+    <ul class="mobile-menu">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="./index.html">Студія</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="">Портфоліо</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="">Контакти</a>
+      </li>
+    </ul>
+
+    <ul class="mobile-contacts list">
+      <li class="mobile-contacts-item">
+        <a href="" class="mobile-contacts-link mobile__tel link">+38 096 111 11 11</a>
+      </li>
+      <li class="mobile-contacts-item">
+        <a href="" class="mobile-contacts-link mobile__mail link">info@devstudio.com</a>
+      </li>
+    </ul>
+
+    <ul class="mobile-socials list">
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">Instagram</a>
+      </li>
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">Twitter</a>
+      </li>
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">Facebook</a>
+      </li>
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+  <script
+defer
+src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+crossorigin="anonymous"
+></script>
+<script defer src="js/mobile-menu.js"></script>
 </body>
 </html>
