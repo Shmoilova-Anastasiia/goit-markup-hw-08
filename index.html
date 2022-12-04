@@ -37,6 +37,10 @@
         +38 096 111 11 11</a>
     </li>
 </ul>
+<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+    <svg class="menu__icon-close" width="40" height="40" aria-label="іконка close">
+         <use href="./icons.svg#icon-menu"></use></svg>
+  </button>
 </div>
 </header>
 <main>
@@ -85,19 +89,43 @@
     <h2 class="work__title">Чим ми займаємося</h2>
    <ul class="work__list list"> 
     <li class="work__item">
-        <img  src="./image/img1.jpg" alt="набір блоксхеми" width="370" height="294">
+        <img  
+        srcset="
+        ./image/work/img1lg@1x.jpg 1x
+        ./image/work/img1lg@2x.jpg 2x" 
+        src="./image/work/img1lg@1x.jpg" 
+        alt="набір блоксхеми"
+        loading="lazy"
+        width="370" 
+        height="294">
     <div class="work__overlay">
         <p class="work__text">Десктопні додатки</p>
     </div>
     </li>
     <li class="work__item">
-        <img  src="./image/img2.jpg" alt="телефоні додатки" width="370" height="294">
+        <img  
+        srcset="
+        ./image/work/img2lg@1x.jpg 1x
+        ./image/work/img2lg@2x.jpg 2x" 
+        src="./image/work/img2lg@1x.jpg"  
+        alt="телефоні додатки" 
+        loading="lazy"
+        width="370" 
+        height="294">
         <div class="work__overlay">
             <p class="work__text">Мобільні додатки</p>
         </div>
     </li>
     <li class="work__item">
-        <img  src="./image/img3.jpg" alt="планшет" width="370" height="294">
+        <img  
+        srcset="
+        ./image/work/img3lg@1x.jpg 1x
+        ./image/work/img3lg@2x.jpg 2x" 
+        src="./image/work/img3lg@1x.jpg"  
+        alt="планшет" 
+        loading="lazy"
+        width="370"
+        height="294">
         <div class="work__overlay">
             <p class="work__text">Дизайнерські рішення</p>
         </div>
@@ -111,7 +139,30 @@
     <h2 class="ourteam__title">Наша команда</h2>
         <ul class="ourteam__list list">
             <li class="ourteam__item">
-                <img src="./image/ourteam/img1lg@1x.jpg" alt="фото" width="270" height="260">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="./image/ourteam/img1lg@1x.jpg 1x, ./image/ourteam/img1lg@2x.jpg 2x"
+                    />
+                    <!-- tablet screen -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./image/ourteam/img1md@1x.jpg 1x, ./image/ourteam/img1md@2x.jpg 2x"
+                    />
+                    <!-- phone screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./image/ourteam/img1sm@1x.jpg 1x, ./image/ourteam/img1sm@2x.jpg 2x"
+                    />
+                    <img
+                      src="./image/ourteam/img1md@1x.jpg"
+                      alt="Ігор Дем'яненко"
+                      width="450"
+                      height="460"
+                      loading="lazy"
+                    />
+                  </picture>
                 <div class="ourteam__card">
                 <h3 class="ourteam__undertitle">Ігор Дем'яненко</h3>
                 <p class="ourteam__text" lang="en">Product Designer</p>
@@ -140,7 +191,30 @@
                 </div> 
             </li>
             <li class="ourteam__item">
-                <img src="./image/ourteam/img2lg@1x.jpg" alt="фото" width="270" height="260">
+                <picture>
+                <!-- desktop screen -->
+                <source
+                media="(min-width: 1200px)"
+                srcset="./image/ourteam/img2lg@1x.jpg 1x, ./image/ourteam/img2lg@2x.jpg 2x"
+              />
+              <!-- tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="./image/ourteam/img2md@1x.jpg 1x, ./image/ourteam/img2md@2x.jpg 2x"
+              />
+              <!-- phone screen -->
+              <source
+                media="(max-width: 767px)"
+                srcset="./image/ourteam/img2sm@1x.jpg 1x, ./image/ourteam/img2sm@2x.jpg 2x"
+              />
+              <img
+                src="./image/ourteam/img2md@1x.jpg"
+                alt="Ольга Рєпіна"
+                width="450"
+                height="460"
+                loading="lazy"
+              />
+            </picture>
                 <div class="ourteam__card">
                 <h3 class="ourteam__undertitle">Ольга Рєпіна</h3>
                 <p class="ourteam__text" lang="en">Frontend Developer</p>
@@ -169,7 +243,30 @@
             </div>
             </li>
             <li class="ourteam__item">
-                <img src="./image/ourteam/img3lg@1x.jpg" alt="фото" width="270" height="260">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                    media="(min-width: 1200px)"
+                    srcset="./image/ourteam/img3lg@1x.jpg 1x, ./image/ourteam/img3lg@2x.jpg 2x"
+                  />
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./image/ourteam/img3md@1x.jpg 1x, ./image/ourteam/img3md@2x.jpg 2x"
+                  />
+                  <!-- phone screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./image/ourteam/img3sm@1x.jpg 1x, ./image/ourteam/img3sm@2x.jpg 2x"
+                  />
+                  <img
+                    src="./image/ourteam/img3md@1x.jpg"
+                    alt="Микола Тарасов"
+                    width="450"
+                    height="460"
+                    loading="lazy"
+                  />
+                </picture>
                 <div class="ourteam__card">
                 <h3 class="ourteam__undertitle">Микола Тарасов</h3>
                 <p class="ourteam__text" lang="en">Marketing</p>
@@ -198,7 +295,30 @@
             </div>
             </li>
             <li class="ourteam__item">
-                <img src="./image/ourteam/img4lg@1x.jpg" alt="фото" width="270" height="260">
+                <picture>
+                    <!-- desktop screen -->
+                    <source
+                    media="(min-width: 1200px)"
+                    srcset="./image/ourteam/img4lg@1x.jpg 1x, ./image/ourteam/img4lg@2x.jpg 2x"
+                  />
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./image/ourteam/img4md@1x.jpg 1x, ./image/ourteam/img4md@2x.jpg 2x"
+                  />
+                  <!-- phone screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./image/ourteam/img4sm@1x.jpg 1x, ./image/ourteam/img4sm@2x.jpg 2x"
+                  />
+                  <img
+                    src="./image/ourteam/img4md@1x.jpg"
+                    alt="Михайло Єрмаков"
+                    width="450"
+                    height="460"
+                    loading="lazy"
+                  />
+                </picture>
                 <div class="ourteam__card">
                 <h3 class="ourteam__undertitle">Михайло Єрмаков</h3>
                 <p class="ourteam__text" lang="en">UI Designer</p>
@@ -367,6 +487,56 @@
         </form>
     </div>
 </div>
+<!----------MOBILE MENU------->
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle  menu-toggle-close js-close-menu">
+        <svg class="menu__icon-close" width="30" height="30" aria-label="іконка close"> 
+            <use href="./icons.svg#close-icon"></use></svg>
+    </button>
+
+    <ul class="mobile-menu">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="">Студія</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="">Портфоліо</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href="">Контакти</a>
+      </li>
+    </ul>
+
+    <ul class="mobile-contacts list">
+      <li class="mobile-contacts-item">
+        <a href="" class="mobile-contacts-link mobile__tel link">+38 096 111 11 11</a>
+      </li>
+      <li class="mobile-contacts-item">
+        <a href="" class="mobile-contacts-link mobile__mail link">info@devstudio.com</a>
+      </li>
+    </ul>
+
+    <ul class="mobile-socials list">
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">Instagram</a>
+      </li>
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">Twitter</a>
+      </li>
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">Facebook</a>
+      </li>
+      <li class="mobile-socials-item">
+        <a href="" class="mobile-social-link link">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
 <script src="./js/modal.js"></script>
+<script
+defer
+src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+crossorigin="anonymous"
+></script>
+<script defer src="js/mobile-menu.js"></script>
 </body>
 </html>

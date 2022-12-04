@@ -10,40 +10,40 @@
     background-size: cover;
     background-color: var(--frame-color); 
 
-    @media screen and (max-width:767px) {
+//    mobile screen
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url('../image/background/imgsm@1x.png');
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-        url('../image/background/Himgsm@1x.jpg');
-        @media (min-device-pixel-ratio: 2),
-            (min-resolution: 192dpi),
-            (min-resolution: 2dppx) {
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-            url('../image/background/Himgsm@2x.jpg');
-        }
+        url('../image/background/imgsm@2x.png');
     }
-
-    @media screen and (min-width:768px) {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../image/background/Himgmd@1x.jpg');
     
-        @media (min-device-pixel-ratio: 2),
-            (min-resolution: 192dpi),
-            (min-resolution: 2dppx) {
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('../image/background/Himgmd@2x.jpg');
+// tablet screen
+    @media screen and (min-width:481px) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../image/background/imgmd@1x.png');
+    
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../image/background/imgmd@2x.png');
         }
     }
-
-    @media screen and (min-width:1200px) {
+// desctop screen
+    @media screen and (min-width:769px) {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-    url('../image/background/Himglg@1x.jpg');
+    url('../image/background/imglg@1x.png');
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url('../image/background/Himglg@2x.jpg');
+            url('../image/background/imglg@2x.png');
         }
     }
     }

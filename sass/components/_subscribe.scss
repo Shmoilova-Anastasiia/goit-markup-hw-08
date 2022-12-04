@@ -1,7 +1,8 @@
 .subscribe__container{
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:1199px) {
         text-align: center;
-    }   
+    }  
+
     @media screen and (min-width:1200px) {
         margin-left: auto;
     }
@@ -43,7 +44,7 @@
 }
 
 .subscribe__button{
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:1199px) {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
