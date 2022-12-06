@@ -74,12 +74,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .header__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .header__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -311,12 +311,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .hero__side {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__side {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -392,12 +392,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .feature__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .feature__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -505,12 +505,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .work__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .work__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -607,12 +607,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .ourteam__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .ourteam__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -767,12 +767,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .client__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .client__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -870,12 +870,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .footer__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -1412,12 +1412,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .portfolio__container {
-    max-width: 768px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
