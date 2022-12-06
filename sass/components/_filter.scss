@@ -11,11 +11,11 @@
     
 
     @media screen and (min-width:768px) {
-        width: 354px;
+        max-width: 354px;
         
     }
     @media screen and (min-width:1200px) {
-        width: 370px;
+        max-width: 370px;
         
  
     }
@@ -37,7 +37,7 @@
         top: 0;
         left: 0;
 
-        transform:translateY(102%);
+        transform:translateY(120%);
 
         width: 100%;
         height: 100%;
