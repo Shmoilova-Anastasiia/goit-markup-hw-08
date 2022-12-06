@@ -28,9 +28,13 @@
    
 }
 .subscribe__field{
-    max-width: 450px;
+    width: 100%;
     height: 50px;
     padding: 15px 16px;
+
+    @media screen and (min-width:450px) {
+        width: 450px;
+    }
 
     @media screen and (min-width:1200px) {
         width: 358px;
