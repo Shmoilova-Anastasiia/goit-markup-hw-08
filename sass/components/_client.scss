@@ -1,5 +1,8 @@
 .client{
     @include section;
+    @media screen and(max-width:1199px) {
+        padding-bottom: 60px;
+    }
 }
 .client__container{
     @include container;
@@ -22,7 +25,7 @@
 }
 .client__item{
     display:inline-flex;
-    width: 210px;
+    max-width: 210px;
     height: 92px;
     @media screen and(min-width:768px) {
         width: 226px;

@@ -22,7 +22,7 @@
     left: 50%;
     padding: 40px;
     transform: translate(-50%,-50%);
-    width: 450px;
+    max-width: 450px;
     min-height: 609px;
     background-color: var(--text-color-light);
     border-radius: 4px;
@@ -63,7 +63,7 @@
     
 .modal__label{
     display: block;
-    width: 370px;
+    max-width: 370px;
     margin-bottom: 12px;
 
     font-weight: 700;

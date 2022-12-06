@@ -7,7 +7,7 @@
     
 }
 .filter__item{
-    width: 450px;
+    max-width: 450px;
     
 
     @media screen and (min-width:768px) {
@@ -71,7 +71,7 @@
           
  }
 .filter__card{
-    width: 450px;
+    max-width: 450px;
     padding: 20px 24px; 
     border: 1px solid #EEEEEE;  
     border-top: none;

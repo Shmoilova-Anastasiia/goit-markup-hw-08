@@ -7,7 +7,7 @@
 .portfolio__list {
     display: flex;
     flex-wrap: wrap;
-    width: 326px;
+    max-width: 326px;
    margin-bottom: 40px;
    gap: 8px;
 

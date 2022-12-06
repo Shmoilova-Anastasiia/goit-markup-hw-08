@@ -1,7 +1,8 @@
 .feature {
     @include section;
-
-    padding-bottom: 0;
+    @media screen and(min-width:1200px) {
+        padding-bottom: 0;
+    }
 }
 .feature__container {
     @include container;
@@ -18,7 +19,10 @@
 }
 }
 .feature__item{
-    width: 450px;
+    @media screen and (max-width:767px) {
+        max-width: 450px;  
+    }
+   
     @media screen and (min-width:768px) {
         width: 354px;  
     }
@@ -30,7 +34,7 @@
     
 .feauture__icon{
     display: flex;
-    width: 450px;
+    max-width: 450px;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;

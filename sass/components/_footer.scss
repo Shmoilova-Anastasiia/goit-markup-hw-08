@@ -1,17 +1,20 @@
 .footer{
-    background: var(--frame-color);
+    background-color: var(--frame-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    
     }
 .footer__container{
     @include container;
     @media screen and (max-width:1199px) {
         text-align: center;
+        align-items: baseline;
     }
     @media screen and (min-width:768px) {
         display: flex;
+
         flex-wrap: wrap;
-        align-items: center;
+        align-items: baseline;
         justify-content: center;   
     }
 
